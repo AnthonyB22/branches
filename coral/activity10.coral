@@ -1,0 +1,12 @@
+integer riderAge
+integer riderHeight
+
+riderAge = Get next input
+riderHeight = Get next input
+if riderAge < 10
+   Put " Can't ride: Too young" to output
+if riderAge < 80
+   Put "Can ride, but sure?" to output
+if riderHeight < 48
+   Put "Can't ride: Too short" to output
+Put "Can ride" to output
